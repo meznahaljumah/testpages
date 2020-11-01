@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Table - Brand</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cairo:300,400,600,700,900">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="assets/css/Bootstrap-Chat.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.15/css/dataTables.bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body id="page-top" style="direction: rtl;">
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top text-uppercase" id="mainNav">
+        <div class="container"><a class="navbar-brand" href="#" style="padding-left: 20px;">اوزن</a><button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right text-white rounded" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation" style="background: #36b9cc;"><i class="fa fa-bars"></i></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="nav navbar-nav d-flex justify-content-center align-items-center ml-auto" style="text-align: right;padding-right: 0px;">
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#index">الرئيسية</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#">من نحن</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#">تواصل معنا</a></li>
+                </ul>
+                <div class="dropdown no-arrow" id="navi"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#"><span class="badge badge-danger badge-counter">3+</span><i class="fas fa-bell fa-fw"></i></a>
+                    <div class="dropdown-menu dropdown-menu-right dropdown-list dropdown-menu-right animated--grow-in">
+                        <h6 class="dropdown-header">alerts center</h6>
+                        <a class="d-flex align-items-center dropdown-item" href="#">
+                            <div class="mr-3">
+                                <div class="bg-primary icon-circle"><i class="fas fa-file-alt text-white"></i></div>
+                            </div>
+                            <div><span class="small text-gray-500">December 12, 2019</span>
+                                <p>A new monthly report is ready to download!</p>
+                            </div>
+                        </a>
+                        <a class="d-flex align-items-center dropdown-item" href="#">
+                            <div class="mr-3">
+                                <div class="bg-success icon-circle"><i class="fas fa-donate text-white"></i></div>
+                            </div>
+                            <div><span class="small text-gray-500">December 7, 2019</span>
+                                <p>$290.29 has been deposited into your account!</p>
+                            </div>
+                        </a>
+                        <a class="d-flex align-items-center dropdown-item" href="#">
+                            <div class="mr-3">
+                                <div class="bg-warning icon-circle"><i class="fas fa-exclamation-triangle text-white"></i></div>
+                            </div>
+                            <div><span class="small text-gray-500">December 2, 2019</span>
+                                <p>Spending Alert: We've noticed unusually high spending for your account.</p>
+                            </div>
+                        </a><a class="text-center dropdown-item small text-gray-500" href="#">Show All Alerts</a></div>
+                </div>
+                <div class="dropdown show no-arrow" id="massi"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="true" href="#"><i class="fas fa-envelope fa-fw"></i><span class="badge badge-danger badge-counter">7</span></a>
+                    <div class="dropdown-menu dropdown-menu-right show dropdown-list dropdown-menu-right animated--grow-in">
+                        <h6 class="dropdown-header">alerts center</h6>
+                        <a class="d-flex align-items-center dropdown-item" href="#">
+                            <div class="dropdown-list-image mr-3"><img class="rounded-circle" src="assets/img/avatars/avatar4.jpeg">
+                                <div class="bg-success status-indicator"></div>
+                            </div>
+                            <div class="font-weight-bold">
+                                <div class="text-truncate"><span>Hi there! I am wondering if you can help me with a problem I've been having.</span></div>
+                                <p class="small text-gray-500 mb-0">Emily Fowler - 58m</p>
+                            </div>
+                        </a>
+                        <a class="d-flex align-items-center dropdown-item" href="#">
+                            <div class="dropdown-list-image mr-3"><img class="rounded-circle" src="assets/img/avatars/avatar2.jpeg">
+                                <div class="status-indicator"></div>
+                            </div>
+                            <div class="font-weight-bold">
+                                <div class="text-truncate"><span>I have the photos that you ordered last month!</span></div>
+                                <p class="small text-gray-500 mb-0">Jae Chun - 1d</p>
+                            </div>
+                        </a>
+                        <a class="d-flex align-items-center dropdown-item" href="#">
+                            <div class="dropdown-list-image mr-3"><img class="rounded-circle" src="assets/img/avatars/avatar3.jpeg">
+                                <div class="bg-warning status-indicator"></div>
+                            </div>
+                            <div class="font-weight-bold">
+                                <div class="text-truncate"><span>Last month's report looks great, I am very happy with the progress so far, keep up the good work!</span></div>
+                                <p class="small text-gray-500 mb-0">Morgan Alvarez - 2d</p>
+                            </div>
+                        </a><a class="text-center dropdown-item small text-gray-500" href="#">Show All Alerts</a></div>
+                </div>
+                <div class="dropdown d-flex justify-content-center"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#" style="padding-left: 0px;">مرحبا مزنة&nbsp;</a>
+                    <div class="dropdown-menu"><a class="dropdown-item" href="#">حسابي&nbsp;</a><a class="dropdown-item" href="#">خروج</a></div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div id="wrapper">
+        <nav class="navbar navbar-dark align-items-start sidebar sidebar-dark accordion bg-gradient-primary p-0">
+            <div class="container-fluid d-flex flex-column p-0">
+                <ul class="nav navbar-nav text-light" id="accordionSidebar" style="padding-top: 100px;">
+                    <li class="nav-item" style="/*text-align: right;*/"></li>
+                    <li class="nav-item"><a class="nav-link" href="profile.html" style="padding-right: 0px;"><span style="text-align: right;">الملف الشخصي</span></a><a class="nav-link" href="numbers.html" style="padding-right: 0px;"><span style="text-align: right;">احصائيات</span></a></li>
+                    <li
+                        class="nav-item"><a class="nav-link active" href="table.html" style="padding-right: 0px;"><span style="text-align: right;">الخدمات</span></a></li>
+                        <li class="nav-item"></li>
+                        <li class="nav-item"></li>
+                </ul>
+                <div class="text-center d-none d-md-inline"><button class="btn rounded-circle border-0" id="sidebarToggle" type="button"></button></div>
+            </div>
+        </nav>
+        <div class="d-flex flex-column" id="content-wrapper" style="padding-top: 100px;">
+            <div id="content">
+                <div class="container-fluid">
+                    <h3 class="text-dark mb-4" style="text-align: right;">الخدمات</h3>
+                    <div class="card shadow" style="margin-bottom: 50px;">
+                        <div class="card-header py-3">
+                            <p class="text-primary m-0 font-weight-bold" style="text-align: right;">اسعار خدمات سناب شات&nbsp;</p>
+                        </div>
+                        <div class="card-body">
+                            <form>
+                                <div class="form-row">
+                                    <div class="col col-lg-6 col-xl-6 col-12">
+                                        <div class="form-group" style="text-align: right;"><label for="price1"><strong>اسم الخدمة</strong><br></label><input class="form-control" type="text" name="nameserv" placeholder="اعلان منتج"></div>
+                                    </div>
+                                    <div class="col col-lg-6 col-xl-6 col-12">
+                                        <div class="form-group" style="text-align: right;"><label for="price2"><strong>السعر</strong><br></label><input class="form-control" type="number" name="price2" placeholder="0,000 SR"></div>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="col" style="text-align: right;"><button class="btn btn-primary btn-sm btnprofil btnside" type="submit">اضافة خدمة</button><button class="btn btn-primary btn-sm btnprofil btnside" type="submit">حفظ</button></div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="card shadow" style="margin-bottom: 50px;">
+                        <div class="card-header py-3">
+                            <p class="text-primary m-0 font-weight-bold" style="text-align: right;">اسعار خدمات انستجرام</p>
+                        </div>
+                        <div class="card-body">
+                            <form>
+                                <div class="form-row">
+                                    <div class="col col-lg-6 col-xl-6 col-12">
+                                        <div class="form-group" style="text-align: right;"><label for="price1"><strong>اسم الخدمة</strong><br></label><input class="form-control" type="text" name="nameserv" placeholder="اعلان منتج"></div>
+                                    </div>
+                                    <div class="col col-lg-6 col-xl-6 col-12">
+                                        <div class="form-group" style="text-align: right;"><label for="price2"><strong>السعر</strong><br></label><input class="form-control" type="number" name="price2" placeholder="0,000 SR"></div>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="col" style="text-align: right;"><button class="btn btn-primary btn-sm btnprofil btnside" type="submit">اضافة خدمة</button><button class="btn btn-primary btn-sm btnprofil btnside" type="submit">حفظ</button></div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="card shadow" style="margin-bottom: 50px;">
+                        <div class="card-header py-3">
+                            <p class="text-primary m-0 font-weight-bold" style="text-align: right;">اسعار شاملة خدمات سناب شات وانستجرام</p>
+                        </div>
+                        <div class="card-body">
+                            <form>
+                                <div class="form-row">
+                                    <div class="col col-lg-6 col-xl-6 col-12">
+                                        <div class="form-group" style="text-align: right;"><label for="price1"><strong>اسم الخدمة</strong><br></label><input class="form-control" type="text" name="nameserv" placeholder="اعلان منتج"></div>
+                                    </div>
+                                    <div class="col col-lg-6 col-xl-6 col-12">
+                                        <div class="form-group" style="text-align: right;"><label for="price2"><strong>السعر</strong><br></label><input class="form-control" type="number" name="price2" placeholder="0,000 SR"></div>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="col" style="text-align: right;"><button class="btn btn-primary btn-sm btnprofil btnside" type="submit">اضافة خدمة</button><button class="btn btn-primary btn-sm btnprofil btnside" type="submit">حفظ</button></div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="card shadow" style="margin-bottom: 50px;">
+                        <div class="card-header py-3">
+                            <p class="text-primary m-0 font-weight-bold" style="text-align: right;">اسعار خدمات تويتر</p>
+                        </div>
+                        <div class="card-body">
+                            <form>
+                                <div class="form-row">
+                                    <div class="col col-lg-6 col-xl-6 col-12">
+                                        <div class="form-group" style="text-align: right;"><label for="price1"><strong>اسم الخدمة</strong><br></label><input class="form-control" type="text" name="nameserv" placeholder="اعلان منتج"></div>
+                                    </div>
+                                    <div class="col col-lg-6 col-xl-6 col-12">
+                                        <div class="form-group" style="text-align: right;"><label for="price2"><strong>السعر</strong><br></label><input class="form-control" type="number" name="price2" placeholder="0,000 SR"></div>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="col" style="text-align: right;"><button class="btn btn-primary btn-sm btnprofil btnside" type="submit">اضافة خدمة</button><button class="btn btn-primary btn-sm btnprofil btnside" type="submit">حفظ</button></div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="card shadow" style="margin-bottom: 50px;">
+                        <div class="card-header py-3">
+                            <p class="text-primary m-0 font-weight-bold" style="text-align: right;">اسعار خدمات يوتيوب</p>
+                        </div>
+                        <div class="card-body">
+                            <form>
+                                <div class="form-row">
+                                    <div class="col col-lg-6 col-xl-6 col-12">
+                                        <div class="form-group" style="text-align: right;"><label for="price1"><strong>اسم الخدمة</strong><br></label><input class="form-control" type="text" name="nameserv" placeholder="اعلان منتج"></div>
+                                    </div>
+                                    <div class="col col-lg-6 col-xl-6 col-12">
+                                        <div class="form-group" style="text-align: right;"><label for="price2"><strong>السعر</strong><br></label><input class="form-control" type="number" name="price2" placeholder="0,000 SR"></div>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="col" style="text-align: right;"><button class="btn btn-primary btn-sm btnprofil btnside" type="submit">اضافة خدمة</button><button class="btn btn-primary btn-sm btnprofil btnside" type="submit">حفظ</button></div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="card shadow mb-5">
+                        <div class="card-header py-3">
+                            <p class="text-primary m-0 font-weight-bold" style="text-align: right;">ملاحظة</p>
+                        </div>
+                        <div class="card-body" style="text-align: right;">
+                            <ul>
+                                <li>الاسعار اعلاة بالريال السعودي.</li>
+                                <li>الاسعار <strong>لا تشمل</strong> ضريبة القيمة المضافة 15%.</li>
+                                <li>الاسعار <strong>لا تشمل</strong> رسوم الوكالة 15%.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="bg-white sticky-footer">
+                <div class="container my-auto">
+                    <div class="text-center my-auto copyright"><span><br>الحقوق محفوظة © 2020<br><br></span></div>
+                </div>
+            </footer>
+        </div><a class="border rounded d-inline scroll-to-top" href="#page-top"><i class="fas fa-angle-up"></i></a></div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/chart.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.15/js/dataTables.bootstrap.min.js"></script>
+    <script src="assets/js/freelancer.js"></script>
+    <script src="assets/js/theme.js"></script>
+</body>
+
+</html>
